@@ -59,6 +59,10 @@ h2 {
   width: 100%;
   max-width: 840px;
 }
+
+.container-page2 {
+
+}
 .search-box {
   position: relative;
   width: 100%;
@@ -159,11 +163,12 @@ h2 {
 
 .image-center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 20px;
-  width: 25%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -213,7 +218,32 @@ h2 {
 
 .button-style{
   display: block;
-  margin: 0 auto 60px auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25em;
+  letter-spacing: -0.015em;
+  padding: 10px;
+  font-family: 'Montserrat Alternates';
+  background-color: white;
+  color: #4167a8;
+  border-color: #4167a8;
+  border-radius: 12px;
+  width: 75%;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button-style:hover {
+  background-color: #4167a8;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.button-style2{
+  display: block;
   text-align: center;
   font-weight: 400;
   font-size: 1.25em;
@@ -224,14 +254,138 @@ h2 {
   color: white;
   border-color: white;
   border-radius: 12px;
-  width: 25%;
+  width: 90%;
   border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+
 }
 
-.button-style:hover {
-  background-color: white; /* Green */
+.button-style2:hover {
+  background-color: white;
   color: #4167a8;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.variable-options{
+  display: inline;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: -0.015em;
+  padding: 10px;
+  font-family: 'Montserrat Alternates';
+  background-color: white;
+  color: #4167a8;
+  border-color: #4167a8;
+  border-radius: 12px;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.variable-options:hover {
+  background-color: #4167a8;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+.column-factsheet{
+  float: left;
+  width: 45%;
+  background-color: white;
+  color: #4167a8;
+  margin: 0.5% 2.5%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 0.5%;
+}
+
+.column-factsheet ul{
+  padding: 1% 5% 1% 5%;
+  font-size: 0.85em;
+}
+
+.column-factsheet h1{
+  font-size: 1.5em;
+  margin-bottom: 2px;
+}
+
+.column-factsheet a {
+  text-decoration-style: dotted;
+  text-decoration-color: black;
+}
+
+.column-one {
+  float: left;
+  width: 25%;
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 35px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-right: 3%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.column-two {
+  float: left;
+  width: 34.5%;
+  margin-top: 5%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-variable{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.column-three{
+  float: left;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.score-card {
+  display: block;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #4167a8;
+  background-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.score-card h1{
+  font-size: 5em;
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  margin-bottom: 2px;
+}
+
+.score-card h2{
+  font-weight: 500;
+  font-size: 2em;
+  letter-spacing: -0.015em;  
+  margin-bottom: 10px;
+   margin-top: -10px;  
 }
 
 #search {
